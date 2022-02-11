@@ -1,5 +1,4 @@
 import React from 'react'
-import { BrowserRouter } from 'react-router-dom/cjs/react-router-dom.min'
 import { NavbarButton } from './NavbarButton'
 
 export const NavbarTop = () => {
