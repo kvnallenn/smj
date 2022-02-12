@@ -3,7 +3,7 @@ import React from 'react'
 export const LoginForm = () => {
     return (
         <div className="col-md-10 mx-auto col-lg-5">
-            <div className='card-header'><img src='../img/Logo-Sentra.png' className='img-fluid' width='150px'></img></div>
+            <div className='card-banner'><img src='../img/Logo-Sentra.png' alt="Sentra Medan Jaya" className='img-fluid' width='150px'></img></div>
             <form className="p-4 p-md-5 rounded-3">
                 <div className="form-floating mb-3">
                     <input type="email" className="form-control" id="floatingInput" placeholder="name@example.com" required />
@@ -14,7 +14,7 @@ export const LoginForm = () => {
                     <label>Password</label>
                 </div>
                 <div className="checkbox mb-3">
-                    <label class="checkbox-label">
+                    <label className="checkbox-label">
                         <input type="checkbox" value="remember-me" /> Remember me
                     </label>
                 </div>
