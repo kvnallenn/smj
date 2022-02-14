@@ -1,7 +1,8 @@
 import React from 'react'
-import { NavbarTop } from './NavbarTop';
-import { NavbarBot } from './NavbarBot';
-import { Heroes } from './Heroes';
+import { NavbarTop } from './Navbar/NavbarTop';
+import { NavbarBot } from './Navbar/NavbarBot';
+import { Heroes } from './Content/Heroes';
+import { Footer } from './Footer/Footer';
 
 export const Home = () => {
   return (
@@ -9,6 +10,7 @@ export const Home = () => {
     <NavbarTop/>
     <NavbarBot/>
     <Heroes/>
+    <Footer/>
     </>
   )
 }
