@@ -65,7 +65,7 @@ body{
 }
 
 .main{
-    background: rgba(0, 0, 0, 0.8);
+    background: rgba(0, 0, 0, 0.7);
 }
 
 
@@ -141,7 +141,7 @@ body{
 /*Login*/
 .loginpage{
     background-image: url("../img/banner.jpg"); 
-    height: auto; 
+    height: 100vh; 
     background-position: center; 
     background-repeat: no-repeat;
     background-size: cover;   
@@ -155,15 +155,21 @@ body{
 
 .col-md-10.mx-auto.col-lg-5{
     background-color: #2D3748;
-
+    margin-top: 15px;
 }
 
 .card-banner{
     text-align: center;
-    margin-top: 20px;
+    padding-top: 30px;
 }
 
 nav ul li a{
     text-decoration: none;
 }
+
+.main-login{
+    background: rgba(0, 0, 0, 0.7);
+    height: 100%;
+}
+
 
