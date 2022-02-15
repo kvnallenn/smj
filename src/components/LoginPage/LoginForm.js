@@ -2,8 +2,9 @@ import React from 'react'
 
 export const LoginForm = () => {
     return (
-        <div>
-        <div className="col-md-10 mx-auto col-lg-5">
+        <>
+        
+         <div className='container col-lg-4 px-5 py-5'>
             <div className='card-banner'><img src='../img/Logo-Sentra.png' alt="Sentra Medan Jaya" className='img-fluid' width='150px'></img></div>
             <form className="p-4 p-md-5 rounded-3">
                 <div className="form-floating mb-3">
@@ -23,7 +24,8 @@ export const LoginForm = () => {
                 <hr className="my-4" />
                 <small className="text-muted">By clicking Sign up, you agree to the terms of use.</small>
             </form>
+        
         </div>
-        </div>
+        </>
     )
 }

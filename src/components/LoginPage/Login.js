@@ -9,17 +9,17 @@ import { NavbarTop } from '../Navbar/NavbarTop'
 export const Login = () => {
     return (
         <>
-        <NavbarTop/>
+        
         <section className="loginpage">
+        <NavbarTop/>
             <div className='main-login'>
-            <div className="container col-xl-9 col-xxl-8 px-5 py-5">
-                <div className="align-items-center g-lg-5 py-5">
-                    <LoginForm/>
-                </div>
+                
+                <LoginForm/>
+    
             </div>
-            </div>
+            <NavbarBot/>
         </section>
-        <NavbarBot/>
+        
         </>
     )
 }
