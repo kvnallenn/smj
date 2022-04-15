@@ -6,15 +6,17 @@ import { NavbarTop } from '../Navbar/NavbarTop'
 export const Daftar = () => {
   return (
     <>
-    <section className="loginpage">
-        <NavbarTop/>
-            <div className='main-login'>
-                
-                <DaftarForm/>
-    
-            </div>
-            <NavbarBot/>
-        </section>
+
+      <section className="loginpage">
+        <NavbarTop />
+        <div className='main-daftar'>
+
+          <DaftarForm/>
+
+        </div>
+        <NavbarBot />
+      </section>
+
     </>
   )
 }
